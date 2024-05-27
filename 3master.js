@@ -30,9 +30,7 @@ function linksSetColor(color){
   }
   
   
-  Body 객체와 Links 객체를 만들고, 각 객체의 메소드를 추가해 봅시다. Body 객체에는 setBackgroundColor(), setColor() 메소드가 추가되어야 하고, Links 객체에는 setColor() 메소드 추가되어야 합니다. 
   
-  master.js
   var Body = {
     setColor: function(color){
       document.querySelector('body').style.color=color;  
